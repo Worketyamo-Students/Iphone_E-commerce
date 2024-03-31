@@ -6,6 +6,7 @@
     --nav-color: #FFFFFF;
     --secondary-color: #EDEDED;
     --nav-outil: #2E2E2E;
+    --gradient-head:  linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
     --Font: 'Roboto', sans-serif;
     --link-color: #F5F5F5;
 }
@@ -21,6 +22,9 @@ html{
 }
 .Font{
     font-family: var(--Font);
+}
+.gradient_head{
+    background: var(--gradient-head);
 }
 body{
     margin: 0;
